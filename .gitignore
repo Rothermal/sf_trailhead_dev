@@ -5,3 +5,4 @@ salesforce.schema
 .externalToolBuilders/
 .settings/com.salesforce.ide.core.prefs
 .externalToolBuilders/com.salesforce.ide.builder.online.launch
+.metadata
