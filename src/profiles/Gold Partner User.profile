@@ -1561,6 +1561,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>User.phone_uuid__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>VAT_Data__mdt.Country_Name__c</field>
         <readable>false</readable>
     </fieldPermissions>

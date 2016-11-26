@@ -1530,6 +1530,11 @@
         <field>User.User_Unique__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.phone_uuid__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <label>Trailhead</label>
     <pageAccesses>
         <apexPage>AccountDetail</apexPage>
