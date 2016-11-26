@@ -104,6 +104,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>AccountProcessor</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccountProcessorTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>AccountTriggerHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -292,6 +300,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.NumberOfEmployees</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Number_of_Contacts__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
