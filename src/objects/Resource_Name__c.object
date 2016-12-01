@@ -47,76 +47,54 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>true</enableActivities>
+    <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableFeeds>true</enableFeeds>
+    <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>true</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Project_Status__c</fullName>
+        <fullName>Battle_Station__c</fullName>
         <externalId>false</externalId>
-        <label>Project Status</label>
-        <picklist>
-            <picklistValues>
-                <fullName>Green</fullName>
-                <default>true</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Yellow</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Red</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Complete</fullName>
-                <default>false</default>
-            </picklistValues>
-            <restrictedPicklist>true</restrictedPicklist>
-            <sorted>false</sorted>
-        </picklist>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
+        <label>Battle Station</label>
+        <referenceTo>Battle_Station__c</referenceTo>
+        <relationshipLabel>Resources</relationshipLabel>
+        <relationshipName>Resources</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
         <trackTrending>false</trackTrending>
-        <type>Picklist</type>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
     <fields>
-        <fullName>Weapons_Status__c</fullName>
+        <fullName>Quantity__c</fullName>
         <externalId>false</externalId>
-        <label>Weapons Status</label>
-        <picklist>
-            <picklistValues>
-                <fullName>Not Yet Operational</fullName>
-                <default>true</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Fully Operational</fullName>
-                <default>false</default>
-            </picklistValues>
-            <restrictedPicklist>true</restrictedPicklist>
-            <sorted>false</sorted>
-        </picklist>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
+        <label>Quantity</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
         <trackTrending>false</trackTrending>
-        <type>Picklist</type>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
-    <label>Battle Station</label>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
+    <fields>
+        <fullName>Utilization__c</fullName>
+        <externalId>false</externalId>
+        <label>Utilization</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <label>Resource</label>
     <nameField>
-        <label>Battle Station Name</label>
-        <trackFeedHistory>true</trackFeedHistory>
+        <label>Resource Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Battle Stations</pluralLabel>
+    <pluralLabel>Resources</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>
