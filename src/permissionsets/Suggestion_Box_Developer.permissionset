@@ -464,6 +464,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Battle_Station__c.Crew_Members__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Battle_Station__c.Project_Status__c</field>
         <readable>false</readable>
     </fieldPermissions>

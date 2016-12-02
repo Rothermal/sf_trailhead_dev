@@ -484,6 +484,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Battle_Station__c.Crew_Members__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Battle_Station__c.Project_Status__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1722,7 +1727,7 @@
         <layout>Project__c-Project Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Resource_Name__c-Resource Layout</layout>
+        <layout>Resource__c-Resource Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>SocialPersona-Social Persona Layout</layout>

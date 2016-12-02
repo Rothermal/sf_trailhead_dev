@@ -56,6 +56,16 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>Crew_Members__c</fullName>
+        <externalId>false</externalId>
+        <label>Crew Members</label>
+        <summarizedField>Resource__c.Quantity__c</summarizedField>
+        <summaryForeignKey>Resource__c.Battle_Station__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
         <fullName>Project_Status__c</fullName>
         <externalId>false</externalId>
         <label>Project Status</label>

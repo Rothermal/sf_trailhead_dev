@@ -9,6 +9,10 @@
         <value>Battle Stations</value>
     </caseValues>
     <fields>
+        <label><!-- Crew Members --></label>
+        <name>Crew_Members__c</name>
+    </fields>
+    <fields>
         <label><!-- Project Status --></label>
         <name>Project_Status__c</name>
         <picklistValues>
@@ -40,5 +44,12 @@
             <translation><!-- Not Yet Operational --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Battle Station Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
