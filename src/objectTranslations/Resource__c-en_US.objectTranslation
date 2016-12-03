@@ -22,4 +22,8 @@
         <name>Utilization__c</name>
     </fields>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Exhaust Port Inspectors must work at least 150%. No coffee breaks! --></errorMessage>
+        <name>Inspectors_Must_Work_Overtime</name>
+    </validationRules>
 </CustomObjectTranslation>
