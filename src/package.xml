@@ -142,6 +142,7 @@
         <members>SF1_Login_Dashboards</members>
         <members>SF1_Login_Dashboards/Salesforce_1_Login_Dashboard</members>
         <members>Salesforce_Adoption_Dashboards</members>
+        <members>Salesforce_Adoption_Dashboards/Battle_Station_Construction_Dashboard</members>
         <members>Salesforce_Adoption_Dashboards/X1_User_Adoption_Logins</members>
         <members>Salesforce_Adoption_Dashboards/X2_Key_Feature_Adoption</members>
         <members>Salesforce_Adoption_Dashboards/X3_Sales_Marketing_Adoption</members>
@@ -287,6 +288,7 @@
         <members>SF1_Login_Reports/Unique_Logins_by_Week</members>
         <members>SF1_Login_Reports/of_Unique_Users_By_Role_Last_30</members>
         <members>unfiled$public</members>
+        <members>unfiled$public/Battle_Station_Supplies</members>
         <members>unfiled$public/Cases_by_Status</members>
         <members>unfiled$public/High_Value_Opportunities</members>
         <members>unfiled$public/Matrix_of_Leads</members>
