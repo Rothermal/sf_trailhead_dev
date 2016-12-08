@@ -1709,6 +1709,9 @@
         <layout>OrderItem-Order Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Part__c-Part Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Phone_Plan__x-phone_plans Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1725,6 +1728,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Project__c-Project Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Repair__c-Repair Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Resource__c-Resource Layout</layout>

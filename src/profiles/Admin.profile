@@ -1709,6 +1709,9 @@
         <layout>OrderItem-Order Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Part__c-Part Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Phone_Plan__x-phone_plans Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1725,6 +1728,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Project__c-Project Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Repair__c-Repair Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Resource__c-Resource Layout</layout>
@@ -1987,6 +1993,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Part__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Phone_Plan__x</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -2024,6 +2039,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Project__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Repair__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
