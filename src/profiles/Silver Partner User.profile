@@ -21,6 +21,11 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>Melancholy_Motors</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>Practice</application>
         <default>false</default>
         <visible>false</visible>
@@ -1483,6 +1488,36 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Repair__c.Amount_billed__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Repair__c.Cost__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Repair__c.Current_Mileage__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Repair__c.Date_of_Repair__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Repair__c.Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Repair__c.Vehicle__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>SocialPersona.SourceApp</field>
         <readable>true</readable>
@@ -1970,7 +2005,15 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Part__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Quickstart</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Repair__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

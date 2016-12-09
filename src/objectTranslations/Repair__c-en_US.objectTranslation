@@ -8,5 +8,51 @@
         <plural>true</plural>
         <value>Repairs</value>
     </caseValues>
+    <fields>
+        <label><!-- Amount billed --></label>
+        <name>Amount_billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Mileage --></label>
+        <name>Current_Mileage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Customer__c</name>
+        <relationshipLabel><!-- Repairs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date of Repair --></label>
+        <name>Date_of_Repair__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Diagnostic</masterLabel>
+            <translation><!-- Diagnostic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heating and Cooling</masterLabel>
+            <translation><!-- Heating and Cooling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspection</masterLabel>
+            <translation><!-- Inspection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance</masterLabel>
+            <translation><!-- Maintenance --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vehicle --></label>
+        <name>Vehicle__c</name>
+        <relationshipLabel><!-- Repairs --></relationshipLabel>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

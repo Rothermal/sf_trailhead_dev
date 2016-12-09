@@ -3,4 +3,6 @@
     <defaultLandingTab>Quickstart</defaultLandingTab>
     <label>External Orders</label>
     <tab>Quickstart</tab>
+    <tab>Repair__c</tab>
+    <tab>Part__c</tab>
 </CustomApplication>

@@ -17,6 +17,10 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>Melancholy_Motors</application>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>Practice</application>
         <visible>false</visible>
     </applicationVisibilities>
@@ -1464,6 +1468,36 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Repair__c.Amount_billed__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Repair__c.Cost__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Repair__c.Current_Mileage__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Repair__c.Date_of_Repair__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Repair__c.Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Repair__c.Vehicle__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>SocialPersona.SourceApp</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1662,7 +1696,15 @@
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>Part__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>Quickstart</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Repair__c</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>

@@ -21,6 +21,11 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>Melancholy_Motors</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>Practice</application>
         <default>false</default>
         <visible>false</visible>
@@ -1480,6 +1485,36 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Project__c.Priority__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Repair__c.Amount_billed__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Repair__c.Cost__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Repair__c.Current_Mileage__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Repair__c.Date_of_Repair__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Repair__c.Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Repair__c.Vehicle__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

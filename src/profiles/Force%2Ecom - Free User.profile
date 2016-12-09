@@ -21,6 +21,11 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>Melancholy_Motors</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>Practice</application>
         <default>false</default>
         <visible>false</visible>
@@ -1484,6 +1489,36 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Repair__c.Amount_billed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Repair__c.Cost__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Repair__c.Current_Mileage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Repair__c.Date_of_Repair__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Repair__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Repair__c.Vehicle__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SocialPersona.SourceApp</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1904,6 +1939,14 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>FLOW</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Part__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Repair__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

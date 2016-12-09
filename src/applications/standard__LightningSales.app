@@ -19,4 +19,6 @@
     <tab>standard-Case</tab>
     <tab>standard-News</tab>
     <tab>standard-ForecastingLightning</tab>
+    <tab>Repair__c</tab>
+    <tab>Part__c</tab>
 </CustomApplication>

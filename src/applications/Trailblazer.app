@@ -7,4 +7,6 @@
     <tab>Waypoint__c</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
+    <tab>Repair__c</tab>
+    <tab>Part__c</tab>
 </CustomApplication>

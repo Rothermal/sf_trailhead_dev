@@ -10,4 +10,6 @@
     <tab>standard-Dashboard</tab>
     <tab>create_accounts</tab>
     <tab>FLOW</tab>
+    <tab>Repair__c</tab>
+    <tab>Part__c</tab>
 </CustomApplication>

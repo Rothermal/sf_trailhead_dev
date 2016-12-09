@@ -52,10 +52,15 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <label>Part</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>Part Name</label>
         <type>Text</type>

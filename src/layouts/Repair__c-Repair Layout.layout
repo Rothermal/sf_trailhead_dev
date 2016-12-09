@@ -7,16 +7,39 @@
         <label>Information</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Readonly</behavior>
                 <field>Name</field>
             </layoutItems>
-        </layoutColumns>
-        <layoutColumns>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Customer__c</field>
+            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>OwnerId</field>
+                <field>Vehicle__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Type__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Cost__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Date_of_Repair__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Amount_billed__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Current_Mileage__c</field>
             </layoutItems>
         </layoutColumns>
+        <layoutColumns/>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>

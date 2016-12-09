@@ -175,9 +175,17 @@
     <tab>standard-Knowledge</tab>
     <tab>create_accounts</tab>
     <tab>FLOW</tab>
+    <tab>Repair__c</tab>
+    <tab>Part__c</tab>
     <workspaceMappings>
         <mapping>
             <tab>FLOW</tab>
+        </mapping>
+        <mapping>
+            <tab>Part__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Repair__c</tab>
         </mapping>
         <mapping>
             <tab>create_accounts</tab>

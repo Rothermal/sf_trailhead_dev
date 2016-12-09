@@ -53,15 +53,113 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>true</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Amount_billed__c</fullName>
+        <externalId>false</externalId>
+        <label>Amount billed</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Current_Mileage__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Mileage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer__c</fullName>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Repairs</relationshipLabel>
+        <relationshipName>Repairs</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Date_of_Repair__c</fullName>
+        <externalId>false</externalId>
+        <label>Date of Repair</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Inspection</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Diagnostic</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Heating and Cooling</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Vehicle__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Vehicle</label>
+        <referenceTo>Vehicle__c</referenceTo>
+        <relationshipLabel>Repairs</relationshipLabel>
+        <relationshipName>Repairs</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <label>Repair</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
-        <label>Repair Name</label>
-        <type>Text</type>
+        <displayFormat>{YYYY}{MM}-{0}</displayFormat>
+        <label>Repair Number</label>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Repairs</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>
