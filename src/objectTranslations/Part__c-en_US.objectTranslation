@@ -8,5 +8,71 @@
         <plural>true</plural>
         <value>Parts</value>
     </caseValues>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Customer__c</name>
+        <relationshipLabel><!-- Parts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair --></label>
+        <name>Repair__c</name>
+        <relationshipLabel><!-- Parts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Vendor --></label>
+        <name>Vendor__c</name>
+        <picklistValues>
+            <masterLabel>Advance</masterLabel>
+            <translation><!-- Advance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amazon</masterLabel>
+            <translation><!-- Amazon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Autozone</masterLabel>
+            <translation><!-- Autozone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bumper to Bumper</masterLabel>
+            <translation><!-- Bumper to Bumper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CarQuest</masterLabel>
+            <translation><!-- CarQuest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dealership</masterLabel>
+            <translation><!-- Dealership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ebay</masterLabel>
+            <translation><!-- Ebay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Factory Motor Parts</masterLabel>
+            <translation><!-- Factory Motor Parts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Napa</masterLabel>
+            <translation><!-- Napa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O&apos;Rielly&apos;s</masterLabel>
+            <translation><!-- O&apos;Rielly&apos;s --></translation>
+        </picklistValues>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
