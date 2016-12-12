@@ -241,6 +241,33 @@
         </relatedContentItems>
     </relatedContent>
     <relatedLists>
+        <fields>NAME</fields>
+        <fields>Vehicle_Make__c</fields>
+        <fields>vehicle_Model__c</fields>
+        <fields>Vehicle_Year__c</fields>
+        <fields>Engine__c</fields>
+        <relatedList>Vehicle__c.Customer__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>Amount_billed__c</fields>
+        <fields>Current_Mileage__c</fields>
+        <fields>Type__c</fields>
+        <fields>Vehicle__c</fields>
+        <fields>Date_of_Repair__c</fields>
+        <relatedList>Repair__c.Customer__c</relatedList>
+        <sortField>Date_of_Repair__c</sortField>
+        <sortOrder>Asc</sortOrder>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>Cost__c</fields>
+        <fields>Name__c</fields>
+        <fields>Repair__c</fields>
+        <fields>Vendor__c</fields>
+        <relatedList>Part__c.Customer__c</relatedList>
+    </relatedLists>
+    <relatedLists>
         <fields>FULL_NAME</fields>
         <fields>CONTACT.TITLE</fields>
         <fields>CONTACT.EMAIL</fields>
@@ -307,14 +334,6 @@
         <fields>CAMPAIGN.STATUS</fields>
         <fields>CAMPAIGN.START_DATE</fields>
         <relatedList>Campaign.Chapter__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>Repair__c.Customer__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>Part__c.Customer__c</relatedList>
     </relatedLists>
     <relatedObjects>ParentId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>

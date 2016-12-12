@@ -9,6 +9,11 @@
         <value>Vehicles</value>
     </caseValues>
     <fields>
+        <label><!-- Account --></label>
+        <name>Customer__c</name>
+        <relationshipLabel><!-- Vehicles --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Engine --></label>
         <name>Engine__c</name>
     </fields>
