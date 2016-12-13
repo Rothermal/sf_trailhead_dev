@@ -1661,6 +1661,7 @@
         <field>Vehicle__c.vehicle_Model__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
     <label>Account Rating</label>
     <objectPermissions>
         <allowCreate>false</allowCreate>
