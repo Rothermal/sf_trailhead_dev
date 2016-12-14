@@ -208,9 +208,10 @@
         <label>All</label>
     </listViews>
     <nameField>
-        <label>Vehicle Name</label>
+        <displayFormat>{000000}</displayFormat>
+        <label>Vehicle Number</label>
         <trackFeedHistory>true</trackFeedHistory>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Vehicles</pluralLabel>
     <searchLayouts/>
