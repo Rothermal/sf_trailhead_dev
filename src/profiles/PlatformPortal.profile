@@ -2002,6 +2002,10 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>Vehicle_Selector</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>test_page</apexPage>
         <enabled>false</enabled>
     </pageAccesses>

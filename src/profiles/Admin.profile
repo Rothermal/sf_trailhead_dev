@@ -2290,6 +2290,10 @@
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>Vehicle_Selector</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>test_page</apexPage>
         <enabled>true</enabled>
     </pageAccesses>

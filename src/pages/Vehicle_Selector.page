@@ -1,0 +1,11 @@
+<apex:page >
+<script>
+
+</script>
+  <!-- eventually going to make api call from this page to 
+  build out vehicle selctor for choosing the year make model of customers vehicle.
+   -->
+  <h1>Congratulat THIS ions</h1>
+  This is your new Page
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>
