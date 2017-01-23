@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>rothermal2@comcast.net</contactEmail>
+    <contactPhone>6127106184</contactPhone>
+    <label>Fruit Market</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:3000/</callbackUrl>
+        <consumerKey>3MVG9uudbyLbNPZNOPOCB4CJT_2kBomzEdYPoeenjqEx.ZwzgWi3gfWoHmdig_YDb65G7yy6od78IfvaP5jiP</consumerKey>
+        <scopes>Full</scopes>
+    </oauthConfig>
+</ConnectedApp>

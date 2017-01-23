@@ -13,6 +13,10 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>Fruit_Stand</application>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>Garage</application>
         <visible>false</visible>
     </applicationVisibilities>
@@ -389,6 +393,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.YearStarted</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Apple__c.Game_date_of_purchase__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Apple__c.Purchase_Price__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -994,6 +1008,26 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Event.WhoId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Game_Fruit__c.Apple__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Game_Fruit__c.Banana__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Game_Fruit__c.Grape__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Game_Fruit__c.Orange__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1744,6 +1778,14 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabSettings>
+        <tab>Apple__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Banana__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>Battle_Station__c</tab>
         <visibility>None</visibility>
     </tabSettings>
@@ -1752,11 +1794,27 @@
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>Fruit_Stand__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>Fundraiser__c</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>Grape__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Orange__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>Part__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Pear__c</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>

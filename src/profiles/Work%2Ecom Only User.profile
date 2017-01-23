@@ -16,6 +16,11 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>Fruit_Stand</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>Garage</application>
         <default>false</default>
         <visible>false</visible>
@@ -410,6 +415,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.YearStarted</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Apple__c.Game_date_of_purchase__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Apple__c.Purchase_Price__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1015,6 +1030,26 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Event.WhoId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Game_Fruit__c.Apple__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Game_Fruit__c.Banana__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Game_Fruit__c.Grape__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Game_Fruit__c.Orange__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1706,7 +1741,13 @@
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Apple__c-Apple Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Asset-Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Banana__c-Banana Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Battle_Station__c-Battle Station Layout</layout>
@@ -1757,7 +1798,13 @@
         <layout>FeedItem-Feed Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Fruit_Stand__c-Fruit Stand Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Fundraiser__c-Fundraiser Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Game_Fruit__c-Game Fruit Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Global-Global Layout</layout>
@@ -1767,6 +1814,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>GoalLink-Goal Link Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Grape__c-Grape Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
@@ -1793,6 +1843,9 @@
         <layout>OpportunityLineItem-Opportunity Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Orange__c-Orange Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Order-Order Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1800,6 +1853,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Part__c-Part Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Pear__c-Pear Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Phone_Plan__x-phone_plans Layout</layout>
@@ -1997,6 +2053,14 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
+        <tab>Apple__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Banana__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Battle_Station__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -2005,11 +2069,27 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Fruit_Stand__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Fundraiser__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Grape__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Orange__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Part__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Pear__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

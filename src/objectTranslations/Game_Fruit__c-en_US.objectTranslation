@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Game Fruit</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Game Fruits</value>
+    </caseValues>
+    <fields>
+        <label><!-- Apple --></label>
+        <name>Apple__c</name>
+        <relationshipLabel><!-- Game Fruits --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Banana --></label>
+        <name>Banana__c</name>
+        <relationshipLabel><!-- Game Fruits --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Grape --></label>
+        <name>Grape__c</name>
+        <relationshipLabel><!-- Game Fruits --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Orange --></label>
+        <name>Orange__c</name>
+        <relationshipLabel><!-- Game Fruits --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
