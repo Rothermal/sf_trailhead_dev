@@ -232,6 +232,9 @@
         <quickActionListItems>
             <quickActionName>Account.Update_Account_Information</quickActionName>
         </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>SendEmail</quickActionName>
+        </quickActionListItems>
     </quickActionList>
     <relatedContent>
         <relatedContentItems>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Game Variable</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Game Variables</value>
+    </caseValues>
+    <fields>
+        <label><!-- Fruits --></label>
+        <name>Fruits__c</name>
+        <picklistValues>
+            <masterLabel>Apple</masterLabel>
+            <translation><!-- Apple --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banana</masterLabel>
+            <translation><!-- Banana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grape</masterLabel>
+            <translation><!-- Grape --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lemon</masterLabel>
+            <translation><!-- Lemon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lime</masterLabel>
+            <translation><!-- Lime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orange</masterLabel>
+            <translation><!-- Orange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peach</masterLabel>
+            <translation><!-- Peach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pear</masterLabel>
+            <translation><!-- Pear --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Watermelon</masterLabel>
+            <translation><!-- Watermelon --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Game Length --></label>
+        <name>Game_Length__c</name>
+    </fields>
+    <fields>
+        <label><!-- Starting Cash --></label>
+        <name>Starting_Cash__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
