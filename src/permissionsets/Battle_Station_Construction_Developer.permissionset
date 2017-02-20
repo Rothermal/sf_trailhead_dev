@@ -37,6 +37,10 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>Waste_Whisperers</application>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <visible>false</visible>
     </applicationVisibilities>
@@ -1569,6 +1573,26 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Player__c.Next_Year_Salary__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Player__c.Position__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Player__c.Salary__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Player__c.Team__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Product2.Description</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1913,6 +1937,10 @@
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>Player__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>Quickstart</tab>
         <visibility>None</visibility>
     </tabSettings>
@@ -1926,6 +1954,10 @@
     </tabSettings>
     <tabSettings>
         <tab>Vehicle__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Waste_Whisperers__c</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>

@@ -47,8 +47,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>holder for game info.</description>
-    <enableActivities>true</enableActivities>
+    <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
@@ -57,44 +56,41 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Fruits__c</fullName>
+        <fullName>Next_Year_Salary__c</fullName>
         <externalId>false</externalId>
-        <label>Fruits</label>
+        <formula>if (Salary__c = 0,0, Salary__c + 3)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Next Year Salary</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Position__c</fullName>
+        <externalId>false</externalId>
+        <label>Position</label>
         <picklist>
             <picklistValues>
-                <fullName>Apples</fullName>
+                <fullName>QB</fullName>
                 <default>false</default>
             </picklistValues>
             <picklistValues>
-                <fullName>Grapes</fullName>
+                <fullName>WR</fullName>
                 <default>false</default>
             </picklistValues>
             <picklistValues>
-                <fullName>Bananas</fullName>
+                <fullName>RB</fullName>
                 <default>false</default>
             </picklistValues>
             <picklistValues>
-                <fullName>Oranges</fullName>
+                <fullName>DEF</fullName>
                 <default>false</default>
             </picklistValues>
             <picklistValues>
-                <fullName>Peachs</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Lemons</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Limes</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Watermelons</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Pears</fullName>
+                <fullName>K</fullName>
                 <default>false</default>
             </picklistValues>
             <restrictedPicklist>true</restrictedPicklist>
@@ -102,15 +98,13 @@
         </picklist>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>MultiselectPicklist</type>
-        <visibleLines>4</visibleLines>
+        <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>Game_Length__c</fullName>
-        <description>Timer for game</description>
+        <fullName>Salary__c</fullName>
         <externalId>false</externalId>
-        <label>Game Length</label>
-        <precision>18</precision>
+        <label>Salary</label>
+        <precision>3</precision>
         <required>false</required>
         <scale>0</scale>
         <trackTrending>false</trackTrending>
@@ -118,27 +112,36 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Starting_Cash__c</fullName>
+        <fullName>Team__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
-        <label>Starting Cash</label>
-        <precision>18</precision>
+        <label>Team</label>
+        <referenceTo>Waste_Whisperers__c</referenceTo>
+        <relationshipLabel>Players</relationshipLabel>
+        <relationshipName>Players</relationshipName>
         <required>false</required>
-        <scale>0</scale>
         <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
+        <type>Lookup</type>
     </fields>
-    <label>Game Variable</label>
+    <label>Player</label>
     <listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
+    <listViews>
+        <fullName>All_Players</fullName>
+        <columns>NAME</columns>
+        <columns>Salary__c</columns>
+        <columns>Next_Year_Salary__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Players</label>
+    </listViews>
     <nameField>
-        <label>Game Variable Name</label>
+        <label>Player Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Game Variables</pluralLabel>
+    <pluralLabel>Players</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

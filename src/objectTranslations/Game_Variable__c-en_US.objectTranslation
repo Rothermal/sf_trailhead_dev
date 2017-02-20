@@ -12,40 +12,40 @@
         <label><!-- Fruits --></label>
         <name>Fruits__c</name>
         <picklistValues>
-            <masterLabel>Apple</masterLabel>
-            <translation><!-- Apple --></translation>
+            <masterLabel>Apples</masterLabel>
+            <translation><!-- Apples --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Banana</masterLabel>
-            <translation><!-- Banana --></translation>
+            <masterLabel>Bananas</masterLabel>
+            <translation><!-- Bananas --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Grape</masterLabel>
-            <translation><!-- Grape --></translation>
+            <masterLabel>Grapes</masterLabel>
+            <translation><!-- Grapes --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Lemon</masterLabel>
-            <translation><!-- Lemon --></translation>
+            <masterLabel>Lemons</masterLabel>
+            <translation><!-- Lemons --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Lime</masterLabel>
-            <translation><!-- Lime --></translation>
+            <masterLabel>Limes</masterLabel>
+            <translation><!-- Limes --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Orange</masterLabel>
-            <translation><!-- Orange --></translation>
+            <masterLabel>Oranges</masterLabel>
+            <translation><!-- Oranges --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Peach</masterLabel>
-            <translation><!-- Peach --></translation>
+            <masterLabel>Peachs</masterLabel>
+            <translation><!-- Peachs --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Pear</masterLabel>
-            <translation><!-- Pear --></translation>
+            <masterLabel>Pears</masterLabel>
+            <translation><!-- Pears --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Watermelon</masterLabel>
-            <translation><!-- Watermelon --></translation>
+            <masterLabel>Watermelons</masterLabel>
+            <translation><!-- Watermelons --></translation>
         </picklistValues>
     </fields>
     <fields>

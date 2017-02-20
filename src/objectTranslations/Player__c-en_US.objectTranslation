@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Player</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Players</value>
+    </caseValues>
+    <fields>
+        <label><!-- Next Year Salary --></label>
+        <name>Next_Year_Salary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Position --></label>
+        <name>Position__c</name>
+        <picklistValues>
+            <masterLabel>DEF</masterLabel>
+            <translation><!-- DEF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K</masterLabel>
+            <translation><!-- K --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QB</masterLabel>
+            <translation><!-- QB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RB</masterLabel>
+            <translation><!-- RB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WR</masterLabel>
+            <translation><!-- WR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Salary --></label>
+        <name>Salary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>Team__c</name>
+        <relationshipLabel><!-- Players --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
