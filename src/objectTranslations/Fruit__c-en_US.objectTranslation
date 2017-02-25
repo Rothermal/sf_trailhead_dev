@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fruit</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fruits</value>
+    </caseValues>
+    <fields>
+        <label><!-- Buy Price --></label>
+        <name>Buy_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fruit Stand --></label>
+        <name>Fruit_Stand__c</name>
+        <relationshipLabel><!-- Fruits --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Gain/Loss --></label>
+        <name>Gain_Loss__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sell Price --></label>
+        <name>Sell_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- type --></label>
+        <name>type__c</name>
+        <picklistValues>
+            <masterLabel>Apples</masterLabel>
+            <translation><!-- Apples --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bananas</masterLabel>
+            <translation><!-- Bananas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grapes</masterLabel>
+            <translation><!-- Grapes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiwis</masterLabel>
+            <translation><!-- Kiwis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oranges</masterLabel>
+            <translation><!-- Oranges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pears</masterLabel>
+            <translation><!-- Pears --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strawberries</masterLabel>
+            <translation><!-- Strawberries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Watermelons</masterLabel>
+            <translation><!-- Watermelons --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

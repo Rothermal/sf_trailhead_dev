@@ -1074,6 +1074,31 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Fruit__c.Buy_Price__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fruit__c.Fruit_Stand__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fruit__c.Gain_Loss__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fruit__c.Sell_Price__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fruit__c.type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Game_Fruit__c.Apple__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1906,6 +1931,9 @@
         <layout>Fruit_Stand__c-Fruit Stand Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Fruit__c-Fruit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Fundraiser__c-Fundraiser Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2218,6 +2246,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Fruit_Stand__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Fruit__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -2580,6 +2617,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Fruit_Stand__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Fruit__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

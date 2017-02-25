@@ -13,4 +13,5 @@
     <tab>Orange__c</tab>
     <tab>Pear__c</tab>
     <tab>Game_Variable__c</tab>
+    <tab>Fruit__c</tab>
 </CustomApplication>
