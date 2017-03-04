@@ -106,10 +106,49 @@
         <visibleLines>4</visibleLines>
     </fields>
     <fields>
+        <fullName>Game_Interval__c</fullName>
+        <description>in milliseconds</description>
+        <externalId>false</externalId>
+        <inlineHelpText>in milliseconds</inlineHelpText>
+        <label>Game Interval</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Game_Length__c</fullName>
         <description>Timer for game</description>
         <externalId>false</externalId>
         <label>Game Length</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MaxSwing__c</fullName>
+        <description>Whole number = cents</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Whole number = cents</inlineHelpText>
+        <label>MaxSwing</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MinSwing__c</fullName>
+        <description>Whole Number = cents</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Whole Number = cents</inlineHelpText>
+        <label>MinSwing</label>
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
@@ -124,6 +163,19 @@
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Starting_Price__c</fullName>
+        <description>whole number = dollar</description>
+        <externalId>false</externalId>
+        <inlineHelpText>whole number = dollar</inlineHelpText>
+        <label>Starting Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
         <trackTrending>false</trackTrending>
         <type>Number</type>
         <unique>false</unique>

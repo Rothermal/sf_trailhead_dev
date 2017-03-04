@@ -49,12 +49,32 @@
         </picklistValues>
     </fields>
     <fields>
+        <help><!-- in milliseconds --></help>
+        <label><!-- Game Interval --></label>
+        <name>Game_Interval__c</name>
+    </fields>
+    <fields>
         <label><!-- Game Length --></label>
         <name>Game_Length__c</name>
     </fields>
     <fields>
+        <help><!-- Whole number = cents --></help>
+        <label><!-- MaxSwing --></label>
+        <name>MaxSwing__c</name>
+    </fields>
+    <fields>
+        <help><!-- Whole Number = cents --></help>
+        <label><!-- MinSwing --></label>
+        <name>MinSwing__c</name>
+    </fields>
+    <fields>
         <label><!-- Starting Cash --></label>
         <name>Starting_Cash__c</name>
+    </fields>
+    <fields>
+        <help><!-- whole number = dollar --></help>
+        <label><!-- Starting Price --></label>
+        <name>Starting_Price__c</name>
     </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
