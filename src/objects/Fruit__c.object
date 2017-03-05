@@ -160,6 +160,13 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Fruits</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <customTabListAdditionalFields>type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Gain_Loss__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Fruit_Stand__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Buy_Price__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Sell_Price__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LAST_UPDATE</customTabListAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
