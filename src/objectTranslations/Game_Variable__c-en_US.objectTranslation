@@ -20,8 +20,36 @@
             <translation><!-- Bananas --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Blackberries</masterLabel>
+            <translation><!-- Blackberries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blueberries</masterLabel>
+            <translation><!-- Blueberries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coconuts</masterLabel>
+            <translation><!-- Coconuts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporations</masterLabel>
+            <translation><!-- Corporations --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Grapes</masterLabel>
             <translation><!-- Grapes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Judges</masterLabel>
+            <translation><!-- Judges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiwis</masterLabel>
+            <translation><!-- Kiwis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legislatures</masterLabel>
+            <translation><!-- Legislatures --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Lemons</masterLabel>
@@ -30,6 +58,10 @@
         <picklistValues>
             <masterLabel>Limes</masterLabel>
             <translation><!-- Limes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mangoes</masterLabel>
+            <translation><!-- Mangoes --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Oranges</masterLabel>
@@ -42,6 +74,22 @@
         <picklistValues>
             <masterLabel>Pears</masterLabel>
             <translation><!-- Pears --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pineapples</masterLabel>
+            <translation><!-- Pineapples --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rasberries</masterLabel>
+            <translation><!-- Rasberries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senators</masterLabel>
+            <translation><!-- Senators --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strawberries</masterLabel>
+            <translation><!-- Strawberries --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Watermelons</masterLabel>
