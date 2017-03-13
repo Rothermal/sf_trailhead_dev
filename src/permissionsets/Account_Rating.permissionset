@@ -1098,6 +1098,36 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Game_Round__c.Fruit_Stand__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Game_Round__c.Highest_Price_Fruit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Game_Round__c.Highest_Price__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Game_Round__c.Lowest_Price_Fruit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Game_Round__c.Lowest_Price__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Game_Round__c.Round_Number__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Game_Variable__c.Fruits__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1998,6 +2028,10 @@
     </tabSettings>
     <tabSettings>
         <tab>Fundraiser__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Game_Round__c</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>

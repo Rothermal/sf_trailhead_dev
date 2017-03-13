@@ -1119,6 +1119,36 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Game_Round__c.Fruit_Stand__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Game_Round__c.Highest_Price_Fruit__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Game_Round__c.Highest_Price__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Game_Round__c.Lowest_Price_Fruit__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Game_Round__c.Lowest_Price__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Game_Round__c.Round_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Game_Variable__c.Fruits__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1995,6 +2025,9 @@
         <layout>Game_Fruit__c-Game Fruit Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Game_Round__c-Game Round Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Game_Variable__c-Game Variable Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2321,6 +2354,10 @@
     <tabVisibilities>
         <tab>Fundraiser__c</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Game_Round__c</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Game_Variable__c</tab>

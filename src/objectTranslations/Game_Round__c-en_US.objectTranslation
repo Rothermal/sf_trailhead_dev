@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Game Round</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Game Rounds</value>
+    </caseValues>
+    <fields>
+        <label><!-- Fruit Stand --></label>
+        <name>Fruit_Stand__c</name>
+        <relationshipLabel><!-- Game Rounds --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Highest Price Fruit --></label>
+        <name>Highest_Price_Fruit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Highest Price --></label>
+        <name>Highest_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lowest Price Fruit --></label>
+        <name>Lowest_Price_Fruit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lowest Price --></label>
+        <name>Lowest_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Round Number --></label>
+        <name>Round_Number__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
