@@ -1719,6 +1719,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Player__c.Team_Board__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Player__c.Team__c</field>
         <readable>true</readable>
     </fieldPermissions>

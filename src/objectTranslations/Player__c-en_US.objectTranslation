@@ -41,9 +41,64 @@
         <name>Salary__c</name>
     </fields>
     <fields>
+        <label><!-- Team Board --></label>
+        <name>Team_Board__c</name>
+        <picklistValues>
+            <masterLabel>4th and Drunk</masterLabel>
+            <translation><!-- 4th and Drunk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bronto Bolts</masterLabel>
+            <translation><!-- Bronto Bolts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elegantly Wasted</masterLabel>
+            <translation><!-- Elegantly Wasted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Agent</masterLabel>
+            <translation><!-- Free Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freedom Buck o Five</masterLabel>
+            <translation><!-- Freedom Buck o Five --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pantera</masterLabel>
+            <translation><!-- Pantera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silly Nannies</masterLabel>
+            <translation><!-- Silly Nannies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sophomore risers</masterLabel>
+            <translation><!-- Sophomore risers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UsCis.gov</masterLabel>
+            <translation><!-- UsCis.gov --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Who&apos;s on First</masterLabel>
+            <translation><!-- Who&apos;s on First --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yager Bombers</masterLabel>
+            <translation><!-- Yager Bombers --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Team --></label>
         <name>Team__c</name>
         <relationshipLabel><!-- Players --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Player Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
