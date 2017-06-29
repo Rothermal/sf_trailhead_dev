@@ -9,4 +9,6 @@
     <tab>standard-Dashboard</tab>
     <tab>Repair__c</tab>
     <tab>Part__c</tab>
+    <tab>Expense__c</tab>
+    <tab>Camping_Item__c</tab>
 </CustomApplication>

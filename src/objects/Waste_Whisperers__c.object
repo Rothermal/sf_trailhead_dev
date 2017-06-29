@@ -21,10 +21,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -55,9 +51,30 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Current_Total_Salary__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Total Salary</label>
+        <summarizedField>Player__c.Salary__c</summarizedField>
+        <summaryForeignKey>Player__c.Team__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Projected_salary__c</fullName>
+        <externalId>false</externalId>
+        <label>Projected_salary</label>
+        <summarizedField>Player__c.Next_Year_Salary__c</summarizedField>
+        <summaryForeignKey>Player__c.Team__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
     <label>Waste Whisperers</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
@@ -67,6 +84,10 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Waste Whisperers</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <customTabListAdditionalFields>Current_Total_Salary__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Projected_salary__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LAST_UPDATE</customTabListAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

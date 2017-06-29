@@ -1,0 +1,11 @@
+.THIS {
+    background-color:yellow;
+    height:200px;
+    width:80%;
+    margin:auto;
+    padding: 5px;
+    text-align:center;
+}
+.THIS p{
+    color:green;
+}

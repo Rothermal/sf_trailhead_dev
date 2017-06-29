@@ -21,10 +21,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -47,7 +43,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
+    <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
@@ -65,133 +61,168 @@
         <required>false</required>
         <scale>0</scale>
         <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
+        <type>Currency</type>
     </fields>
     <fields>
         <fullName>Position__c</fullName>
         <externalId>false</externalId>
         <label>Position</label>
-        <picklist>
-            <picklistValues>
-                <fullName>QB</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>WR</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>RB</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>DEF</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>K</fullName>
-                <default>false</default>
-            </picklistValues>
-            <restrictedPicklist>true</restrictedPicklist>
-            <sorted>false</sorted>
-        </picklist>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>QB</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>WR</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>RB</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DEF</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>K</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Salary__c</fullName>
+        <defaultValue>0</defaultValue>
         <externalId>false</externalId>
         <label>Salary</label>
         <precision>3</precision>
         <required>false</required>
         <scale>0</scale>
         <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
+        <type>Currency</type>
     </fields>
     <fields>
         <fullName>Team_Board__c</fullName>
         <externalId>false</externalId>
         <label>Team Board</label>
-        <picklist>
-            <picklistValues>
-                <fullName>Free Agent</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>4th and Drunk</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Freedom Buck o Five</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Yager Bombers</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>UsCis.gov</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Silly Nannies</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Who&apos;s on First</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Pantera</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Sophomore risers</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Bronto Bolts</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Elegantly Wasted</fullName>
-                <default>false</default>
-            </picklistValues>
-            <restrictedPicklist>true</restrictedPicklist>
-            <sorted>false</sorted>
-        </picklist>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Who&apos;s on First</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Pantera</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sophomore Risers</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Bronto Bolts</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Elegantly Wasted</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Free Agent</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>4th and Drunk</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Freedom Buck o Five</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Yager Bombers</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UsCis.gov</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Silly Nannies</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Team__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Team</label>
         <referenceTo>Waste_Whisperers__c</referenceTo>
         <relationshipLabel>Players</relationshipLabel>
         <relationshipName>Players</relationshipName>
-        <required>false</required>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
         <trackTrending>false</trackTrending>
-        <type>Lookup</type>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Total_Points_2016__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Total Points 2016</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <label>Player</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Position__c</columns>
+        <columns>Salary__c</columns>
+        <columns>Next_Year_Salary__c</columns>
+        <columns>Team_Board__c</columns>
+        <columns>Total_Points_2016__c</columns>
         <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team_Board__c</field>
+            <operation>equals</operation>
+            <value>Sophomore Risers</value>
+        </filters>
         <label>All</label>
     </listViews>
     <listViews>
         <fullName>All_Players</fullName>
+        <columns>Position__c</columns>
         <columns>NAME</columns>
         <columns>Salary__c</columns>
-        <columns>Next_Year_Salary__c</columns>
+        <columns>Total_Points_2016__c</columns>
+        <columns>Team__c</columns>
+        <columns>CREATED_DATE</columns>
         <filterScope>Everything</filterScope>
-        <label>All Players</label>
+        <filters>
+            <field>Salary__c</field>
+            <operation>notEqual</operation>
+            <value>0</value>
+        </filters>
+        <label>All Skills Players under Contract -</label>
     </listViews>
     <nameField>
         <label>Player Name</label>
@@ -199,5 +230,5 @@
     </nameField>
     <pluralLabel>Players</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

@@ -70,11 +70,13 @@
         <filter>
             <criteriaItems>
                 <column>User.IdpEventLog$UserId$App</column>
+                <isUnlocked>false</isUnlocked>
                 <operator>contains</operator>
                 <value>Salesforce1</value>
             </criteriaItems>
             <criteriaItems>
                 <column>User$IsActive</column>
+                <isUnlocked>false</isUnlocked>
                 <operator>equals</operator>
                 <value>1</value>
             </criteriaItems>
@@ -127,6 +129,7 @@
         <filter>
             <criteriaItems>
                 <column>ROLE</column>
+                <isUnlocked>false</isUnlocked>
                 <operator>notEqual</operator>
                 <value></value>
             </criteriaItems>

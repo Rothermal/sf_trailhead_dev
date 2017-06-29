@@ -21,10 +21,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -112,53 +108,55 @@
         <fullName>Vendor__c</fullName>
         <externalId>false</externalId>
         <label>Vendor</label>
-        <picklist>
-            <picklistValues>
-                <fullName>Napa</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Bumper to Bumper</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Dealership</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Factory Motor Parts</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>CarQuest</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Amazon</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Ebay</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Autozone</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Advance</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>O&apos;Rielly&apos;s</fullName>
-                <default>false</default>
-            </picklistValues>
-            <restrictedPicklist>true</restrictedPicklist>
-            <sorted>false</sorted>
-        </picklist>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Napa</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Bumper to Bumper</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Dealership</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Factory Motor Parts</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>CarQuest</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Amazon</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Ebay</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Autozone</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Advance</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>O&apos;Rielly&apos;s</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <label>Part</label>
     <listViews>

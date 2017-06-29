@@ -9,6 +9,7 @@
     <filter>
         <criteriaItems>
             <column>Suggestion__c.Status__c</column>
+            <isUnlocked>true</isUnlocked>
             <operator>notEqual</operator>
             <value>Implemented</value>
         </criteriaItems>

@@ -31,6 +31,10 @@
     </types>
     <types>
         <members>*</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>AuthProvider</name>
     </types>
     <types>
@@ -62,7 +66,6 @@
         <name>CustomMetadata</name>
     </types>
     <types>
-        <members>*</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
@@ -99,8 +102,8 @@
         <members>Order</members>
         <members>OrderItem</members>
         <members>PartnerRole</members>
-        <members>Phone_Plan__x</members>
         <members>Phone__x</members>
+        <members>Phone_Plan__x</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
@@ -116,6 +119,7 @@
         <members>WorkBadge</members>
         <members>WorkBadgeDefinition</members>
         <members>WorkThanks</members>
+        <members>*</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -155,10 +159,13 @@
     <types>
         <members>unfiled$public</members>
         <members>unfiled$public/Approve_Opportunity_Discount</members>
+        <members>unfiled$public/CommunityChangePasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityForgotPasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityWelcomeEmailTemplate</members>
+        <members>unfiled$public/CustomerPortalChangePwdEmail</members>
+        <members>unfiled$public/CustomerPortalNewUserEmail</members>
+        <members>unfiled$public/CustomerPortalSelfRegUserEmail</members>
         <members>unfiled$public/MarketingProductInquiryResponse</members>
-        <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
-        <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
-        <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
         <members>unfiled$public/SalesNewCustomerEmail</members>
         <members>unfiled$public/SupportCaseAssignmentNotification</members>
         <members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
@@ -166,8 +173,11 @@
         <members>unfiled$public/SupportCaseResponse</members>
         <members>unfiled$public/SupportEscalatedCaseNotification</members>
         <members>unfiled$public/SupportEscalatedCaseReassignment</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
         <members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
         <members>unfiled$public/SupportSelfServiceResetPassword</members>
+        <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
         <name>EmailTemplate</name>
     </types>
     <types>
@@ -204,7 +214,15 @@
     </types>
     <types>
         <members>*</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Portal</name>
     </types>
     <types>
         <members>*</members>
@@ -224,9 +242,19 @@
     </types>
     <types>
         <members>ApexDevNet</members>
+        <members>Edmunds_Automotive_Api</members>
         <name>RemoteSiteSetting</name>
     </types>
     <types>
+        <members>unfiled$public</members>
+        <members>unfiled$public/All_Fruit_Stands</members>
+        <members>unfiled$public/Battle_Station_Supplies</members>
+        <members>unfiled$public/Cases_by_Status</members>
+        <members>unfiled$public/High_Value_Opportunities</members>
+        <members>unfiled$public/Matrix_of_Leads</members>
+        <members>unfiled$public/Opportunities_by_Type</members>
+        <members>unfiled$public/Suggestions_By_Status</members>
+        <members>unfiled$public/Suggestions_Status_of_Open_Suggestions</members>
         <members>DB_Adoption</members>
         <members>DB_Adoption/Active_User_Logins</members>
         <members>DB_Adoption/Active_Users</members>
@@ -234,32 +262,32 @@
         <members>DB_Adoption/DB_Adoption_ACCOUNTS_w_o_Fields_Pop</members>
         <members>DB_Adoption/DB_Adoption_ACTIVITIES_Wall_of_Fame</members>
         <members>DB_Adoption/DB_Adoption_ACTIVITIES_Wall_of_Shame</members>
-        <members>DB_Adoption/DB_Adoption_CONTACTS_wO_Fields_Populated</members>
         <members>DB_Adoption/DB_Adoption_Campaigns</members>
-        <members>DB_Adoption/DB_Adoption_Campaigns_Last_30_Days</members>
         <members>DB_Adoption/DB_Adoption_Campaigns_by_Status</members>
+        <members>DB_Adoption/DB_Adoption_Campaigns_Last_30_Days</members>
+        <members>DB_Adoption/DB_Adoption_CONTACTS_wO_Fields_Populated</members>
         <members>DB_Adoption/DB_Adoption_Count_of_Accounts</members>
+        <members>DB_Adoption/DB_Adoption_Count_of_all_CONTACTS</members>
         <members>DB_Adoption/DB_Adoption_Count_of_LEADS</members>
         <members>DB_Adoption/DB_Adoption_Count_of_OPPTYS</members>
         <members>DB_Adoption/DB_Adoption_Count_of_OPPTYS_last_365</members>
-        <members>DB_Adoption/DB_Adoption_Count_of_all_CONTACTS</members>
         <members>DB_Adoption/DB_Adoption_Funnel_Load_Rate</members>
         <members>DB_Adoption/DB_Adoption_Last_Run_Reports</members>
         <members>DB_Adoption/DB_Adoption_Lead_Abandonment</members>
         <members>DB_Adoption/DB_Adoption_Leads_Converted_Last_365</members>
-        <members>DB_Adoption/DB_Adoption_Login_Wall_of_Fame</members>
-        <members>DB_Adoption/DB_Adoption_Login_Wall_of_Shame</members>
         <members>DB_Adoption/DB_Adoption_Login_by_Department</members>
         <members>DB_Adoption/DB_Adoption_Login_by_Region</members>
         <members>DB_Adoption/DB_Adoption_Login_by_Role</members>
+        <members>DB_Adoption/DB_Adoption_Login_Wall_of_Fame</members>
+        <members>DB_Adoption/DB_Adoption_Login_Wall_of_Shame</members>
         <members>DB_Adoption/DB_Adoption_Mass_Emails_Created</members>
         <members>DB_Adoption/DB_Adoption_Neglected_Customers</members>
         <members>DB_Adoption/DB_Adoption_Neglected_OPPTYS</members>
         <members>DB_Adoption/DB_Adoption_Neglected_Prospects</members>
-        <members>DB_Adoption/DB_Adoption_New_ACTIVITIES_Trend</members>
-        <members>DB_Adoption/DB_Adoption_New_ACTIVITIES_last_30_Days</members>
         <members>DB_Adoption/DB_Adoption_New_Accounts_Last_30_Days</members>
         <members>DB_Adoption/DB_Adoption_New_Accounts_Trend</members>
+        <members>DB_Adoption/DB_Adoption_New_ACTIVITIES_last_30_Days</members>
+        <members>DB_Adoption/DB_Adoption_New_ACTIVITIES_Trend</members>
         <members>DB_Adoption/DB_Adoption_New_Contacts_Trend</members>
         <members>DB_Adoption/DB_Adoption_New_Leads_Last_30_Days</members>
         <members>DB_Adoption/DB_Adoption_New_Leads_Trend</members>
@@ -277,6 +305,7 @@
         <members>SF1_Login_Reports/Numbeof_Users_Logged_In_By_Profile_Month</members>
         <members>SF1_Login_Reports/Number_of_Users_Logged_In_By_Profile_Today</members>
         <members>SF1_Login_Reports/Numberof_Users_Logged_In_By_Profile_Week</members>
+        <members>SF1_Login_Reports/of_Unique_Users_By_Role_Last_30</members>
         <members>SF1_Login_Reports/Overall_Login_This_Month</members>
         <members>SF1_Login_Reports/Overall_Login_This_Month_Joined</members>
         <members>SF1_Login_Reports/Overall_Login_This_Week</members>
@@ -286,15 +315,6 @@
         <members>SF1_Login_Reports/Unique_Logins_by_Day</members>
         <members>SF1_Login_Reports/Unique_Logins_by_Month</members>
         <members>SF1_Login_Reports/Unique_Logins_by_Week</members>
-        <members>SF1_Login_Reports/of_Unique_Users_By_Role_Last_30</members>
-        <members>unfiled$public</members>
-        <members>unfiled$public/Battle_Station_Supplies</members>
-        <members>unfiled$public/Cases_by_Status</members>
-        <members>unfiled$public/High_Value_Opportunities</members>
-        <members>unfiled$public/Matrix_of_Leads</members>
-        <members>unfiled$public/Opportunities_by_Type</members>
-        <members>unfiled$public/Suggestions_By_Status</members>
-        <members>unfiled$public/Suggestions_Status_of_Open_Suggestions</members>
         <name>Report</name>
     </types>
     <types>
@@ -315,6 +335,10 @@
     </types>
     <types>
         <members>*</members>
+        <name>Settings</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>SharingSet</name>
     </types>
     <types>
@@ -331,7 +355,7 @@
     </types>
     <types>
         <members>*</members>
-        <name>Settings</name>
+        <name>ApexTestSuite</name>
     </types>
-    <version>37.0</version>
+    <version>38.0</version>
 </Package>

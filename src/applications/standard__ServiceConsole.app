@@ -4,6 +4,7 @@
     <detailPageRefreshMethod>none</detailPageRefreshMethod>
     <enableCustomizeMyTabs>false</enableCustomizeMyTabs>
     <enableKeyboardShortcuts>true</enableKeyboardShortcuts>
+    <enableListViewHover>true</enableListViewHover>
     <enableListViewReskin>true</enableListViewReskin>
     <enableMultiMonitorComponents>true</enableMultiMonitorComponents>
     <enablePinTabs>true</enablePinTabs>
@@ -177,7 +178,15 @@
     <tab>FLOW</tab>
     <tab>Repair__c</tab>
     <tab>Part__c</tab>
+    <tab>Expense__c</tab>
+    <tab>Camping_Item__c</tab>
     <workspaceMappings>
+        <mapping>
+            <tab>Camping_Item__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Expense__c</tab>
+        </mapping>
         <mapping>
             <tab>FLOW</tab>
         </mapping>

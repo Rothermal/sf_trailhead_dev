@@ -72,8 +72,8 @@
             <translation><!-- Silly Nannies --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Sophomore risers</masterLabel>
-            <translation><!-- Sophomore risers --></translation>
+            <masterLabel>Sophomore Risers</masterLabel>
+            <translation><!-- Sophomore Risers --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>UsCis.gov</masterLabel>
@@ -92,6 +92,10 @@
         <label><!-- Team --></label>
         <name>Team__c</name>
         <relationshipLabel><!-- Players --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Points 2016 --></label>
+        <name>Total_Points_2016__c</name>
     </fields>
     <layouts>
         <layout>Player Layout</layout>

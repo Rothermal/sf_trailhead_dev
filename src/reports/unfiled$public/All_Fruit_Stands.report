@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Fruit__c.type__c</field>
+    </columns>
+    <columns>
+        <field>Fruit__c.Buy_Price__c</field>
+    </columns>
+    <columns>
+        <field>Fruit__c.Sell_Price__c</field>
+    </columns>
+    <columns>
+        <field>Fruit__c.Gain_Loss__c</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_CUSTENT_ID</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>All Fruit Stands</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Fruit__c@Fruit__c.Fruit_Stand__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

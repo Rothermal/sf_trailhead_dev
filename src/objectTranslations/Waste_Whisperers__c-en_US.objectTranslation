@@ -8,6 +8,14 @@
         <plural>true</plural>
         <value>Waste Whisperers</value>
     </caseValues>
+    <fields>
+        <label><!-- Current Total Salary --></label>
+        <name>Current_Total_Salary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Projected_salary --></label>
+        <name>Projected_salary__c</name>
+    </fields>
     <layouts>
         <layout>Waste Whisperers Layout</layout>
         <sections>

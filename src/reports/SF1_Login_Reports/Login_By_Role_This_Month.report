@@ -53,16 +53,19 @@
         <filter>
             <criteriaItems>
                 <column>User.IdpEventLog$UserId$App</column>
+                <isUnlocked>false</isUnlocked>
                 <operator>contains</operator>
                 <value>Salesforce1</value>
             </criteriaItems>
             <criteriaItems>
                 <column>User$IsActive</column>
+                <isUnlocked>false</isUnlocked>
                 <operator>equals</operator>
                 <value>1</value>
             </criteriaItems>
             <criteriaItems>
                 <column>User$UserType</column>
+                <isUnlocked>false</isUnlocked>
                 <operator>equals</operator>
                 <value>S</value>
             </criteriaItems>
@@ -109,11 +112,13 @@
         <filter>
             <criteriaItems>
                 <column>ROLE</column>
+                <isUnlocked>false</isUnlocked>
                 <operator>notEqual</operator>
                 <value></value>
             </criteriaItems>
             <criteriaItems>
                 <column>LICENSE_TYPE</column>
+                <isUnlocked>false</isUnlocked>
                 <operator>equals</operator>
                 <value>S</value>
             </criteriaItems>
