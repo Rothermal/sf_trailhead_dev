@@ -1,4 +1,18 @@
 ({
+    createItem:function(component,newItem){
+        //breakdown. fetch the event
+        //			 set the params with object passed in from component
+        //			 fire event
+        //			 reset the view component to be an empty object.
+      var addItem = component.getEvent("addItem");
+        addItem.setParams({"item":newItem});
+        addItem.fire();
+        component.set("v.newItem",{ 'sobjectType': 'Camping_Item__c',
+                        'Name': '',
+                        'Quantity__c': 0,
+                        'Price__c': 0,
+                        'Packed__c': false });
+    },
 	 validateItemForm: function(component) {
 		 console.log('hitting it');     
         // Simplistic error checking

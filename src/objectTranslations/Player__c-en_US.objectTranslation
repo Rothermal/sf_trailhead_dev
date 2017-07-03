@@ -97,6 +97,10 @@
         <label><!-- Total Points 2016 --></label>
         <name>Total_Points_2016__c</name>
     </fields>
+    <fields>
+        <label><!-- last season ppg --></label>
+        <name>last_season_ppg__c</name>
+    </fields>
     <layouts>
         <layout>Player Layout</layout>
         <sections>

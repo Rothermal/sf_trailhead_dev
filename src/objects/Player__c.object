@@ -170,7 +170,7 @@
         <fullName>Team__c</fullName>
         <externalId>false</externalId>
         <label>Team</label>
-        <referenceTo>Waste_Whisperers__c</referenceTo>
+        <referenceTo>Team__c</referenceTo>
         <relationshipLabel>Players</relationshipLabel>
         <relationshipName>Players</relationshipName>
         <relationshipOrder>0</relationshipOrder>
@@ -191,6 +191,21 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>last_season_ppg__c</fullName>
+        <externalId>false</externalId>
+        <label>last season ppg</label>
+        <summarizedField>Player_Team_Relationship__c.Points_Per_Game__c</summarizedField>
+        <summaryFilterItems>
+            <field>Player_Team_Relationship__c.Season__c</field>
+            <operation>equals</operation>
+            <value>2017</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Player_Team_Relationship__c.Player__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
     <label>Player</label>
     <listViews>
         <fullName>All</fullName>
@@ -210,10 +225,10 @@
     </listViews>
     <listViews>
         <fullName>All_Players</fullName>
-        <columns>Position__c</columns>
         <columns>NAME</columns>
         <columns>Salary__c</columns>
-        <columns>Total_Points_2016__c</columns>
+        <columns>Position__c</columns>
+        <columns>last_season_ppg__c</columns>
         <columns>Team__c</columns>
         <columns>CREATED_DATE</columns>
         <filterScope>Everything</filterScope>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Team</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Teams</value>
+    </caseValues>
+    <fields>
+        <label><!-- Bid Power --></label>
+        <name>Bid_Power__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Total Salary --></label>
+        <name>Current_Total_Salary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Division --></label>
+        <name>Division__c</name>
+        <picklistValues>
+            <masterLabel>Garbage Givers</masterLabel>
+            <translation><!-- Garbage Givers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trash Talkers</masterLabel>
+            <translation><!-- Trash Talkers --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number of players --></label>
+        <name>Number_of_players__c</name>
+    </fields>
+    <fields>
+        <label><!-- Projected_salary --></label>
+        <name>Projected_salary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Season --></label>
+        <name>Season__c</name>
+    </fields>
+    <layouts>
+        <layout>Team Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

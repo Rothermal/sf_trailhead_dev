@@ -20,17 +20,23 @@
         // Send action off to be executed
         $A.enqueueAction(action);
     },
-    clickCreateItem: function(component, event, helper) {
-  
-        
-       if(helper.validateItemForm(component)){
-            // Create the new item
-			console.log('made it this far pre helper post validate');
-            var newItem = component.get("v.newItem");
-            helper.createItem(component, newItem);
-        }
-    },
     handleAddtem: function(component, event, helper){
-        
+     var action = component.get("c.saveItem");
+        var Item = event.getParam("item");
+        var lstItems = component.get("v.items");
+
+        lstItems.push(Item);
+        component.set("v.items",lstItems);
+        console.log("After:"+lstItems);
+        action.setParams({"CampingItem":Item});
+        action.setCallback(this,function(response){
+            var state = response.getState();
+                
+            if (component.isValid() && state === "SUCCESS") {
+                //let the magic happen
+            }
+         });
+        $A.enqueueAction(action);   
+     }
     }    
 })

@@ -325,6 +325,10 @@
         <apexClass>VerifyDate</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>WWUtils</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -1883,6 +1887,36 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Player_Team_Relationship__c.Games_Played__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Player_Team_Relationship__c.Points_Per_Game__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Player_Team_Relationship__c.Points__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Player_Team_Relationship__c.Salary__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Player_Team_Relationship__c.Season__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Player_Team_Relationship__c.Team__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Player__c.Next_Year_Salary__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1904,6 +1938,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Player__c.Total_Points_2016__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Player__c.last_season_ppg__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2068,6 +2107,36 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Team__c.Bid_Power__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Team__c.Current_Total_Salary__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Team__c.Division__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Team__c.Number_of_players__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Team__c.Projected_salary__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Team__c.Season__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Threat_Tier__mdt.Account_tier__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2140,16 +2209,6 @@
         <editable>false</editable>
         <field>Vehicle__c.vehicle_Model__c</field>
         <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Waste_Whisperers__c.Current_Total_Salary__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Waste_Whisperers__c.Projected_salary__c</field>
-        <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
@@ -2290,6 +2349,9 @@
         <layout>Phone__x-phones Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Player_Team_Relationship__c-Player Team Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Player__c-Player Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2329,6 +2391,9 @@
         <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Team__c-Team Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Threat_Tier__mdt-Threat Tier Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2354,9 +2419,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Vehicle__c-Vehicle Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Waste_Whisperers__c-Waste Whisperers Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Waypoint__c-Waypoint Layout</layout>
@@ -2705,6 +2767,10 @@
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Player_Team_Relationship__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Player__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -2721,11 +2787,11 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Vehicle__c</tab>
+        <tab>Team__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Waste_Whisperers__c</tab>
+        <tab>Vehicle__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
