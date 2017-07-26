@@ -13,6 +13,10 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>Fantasy_Football</application>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>Fruit_Stand</application>
         <visible>false</visible>
     </applicationVisibilities>
@@ -34,10 +38,6 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>Trailblazer</application>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>Waste_Whisperers</application>
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
@@ -1896,6 +1896,36 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Player__c.Auction_Estimate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Player__c.Birthday__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Player__c.ByeWeek__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Player__c.Depth_Order__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Player__c.Height__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Player__c.NFL_team__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Player__c.Next_Year_Salary__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1917,6 +1947,21 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Player__c.Total_Points_2016__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Player__c.Wieght__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Player__c.Years_Experience__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Player__c.fantasy_data_id__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2385,6 +2430,10 @@
     </tabSettings>
     <tabSettings>
         <tab>Grape__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>League__c</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>

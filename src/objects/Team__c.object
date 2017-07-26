@@ -97,6 +97,20 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>League__c</fullName>
+        <externalId>false</externalId>
+        <label>League</label>
+        <referenceTo>League__c</referenceTo>
+        <relationshipLabel>Teams</relationshipLabel>
+        <relationshipName>Teams</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
         <fullName>Number_of_players__c</fullName>
         <externalId>false</externalId>
         <label>Number of players</label>
@@ -118,7 +132,7 @@
     <fields>
         <fullName>Season__c</fullName>
         <externalId>false</externalId>
-        <formula>If(MONTH(TODAY()) &gt;7, TEXT(YEAR(TODAY())+ 1),TEXT(YEAR(TODAY())))</formula>
+        <formula>If(MONTH(TODAY()) &gt;6, TEXT(YEAR(TODAY()) - 1),TEXT(YEAR(TODAY())))</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Season</label>
         <required>false</required>
@@ -147,5 +161,5 @@
         <customTabListAdditionalFields>Division__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>LAST_UPDATE</customTabListAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

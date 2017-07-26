@@ -52,6 +52,197 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>Auction_Estimate__c</fullName>
+        <externalId>false</externalId>
+        <label>Auction Estimate</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Birthday__c</fullName>
+        <externalId>false</externalId>
+        <label>Birthday</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ByeWeek__c</fullName>
+        <externalId>false</externalId>
+        <label>ByeWeek</label>
+        <length>2</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Depth_Order__c</fullName>
+        <externalId>false</externalId>
+        <label>Depth Order</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Height__c</fullName>
+        <externalId>false</externalId>
+        <label>Height</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NFL_team__c</fullName>
+        <externalId>false</externalId>
+        <label>NFL team</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ARI</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>ATL</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>BAL</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>CAR</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>CHI</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>CIN</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>CLE</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DAL</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DEN</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>DET</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>GB</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>HOU</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>IND</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>JAX</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>KC</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LAC</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>LAR</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MIA</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>MIN</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>NE</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>NO</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>NYG</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>NYJ</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>OAK</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>PHI</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>PIT</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>SEA</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>SF</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>STL</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>TB</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>TEN</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>WAS</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Next_Year_Salary__c</fullName>
         <externalId>false</externalId>
         <formula>if (Salary__c = 0,0, Salary__c + 3)</formula>
@@ -192,6 +383,41 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Wieght__c</fullName>
+        <externalId>false</externalId>
+        <label>Wieght</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Years_Experience__c</fullName>
+        <externalId>false</externalId>
+        <label>Years Experience</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>fantasy_data_id__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>id from fantasy data api</description>
+        <externalId>true</externalId>
+        <inlineHelpText>id from fantasy data api</inlineHelpText>
+        <label>fantasy data id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>last_season_ppg__c</fullName>
         <externalId>false</externalId>
         <label>last season ppg</label>
@@ -199,7 +425,7 @@
         <summaryFilterItems>
             <field>Player_Team_Relationship__c.Season__c</field>
             <operation>equals</operation>
-            <value>2017</value>
+            <value>2016</value>
         </summaryFilterItems>
         <summaryForeignKey>Player_Team_Relationship__c.Player__c</summaryForeignKey>
         <summaryOperation>sum</summaryOperation>
@@ -210,17 +436,14 @@
     <listViews>
         <fullName>All</fullName>
         <columns>NAME</columns>
+        <columns>last_season_ppg__c</columns>
         <columns>Position__c</columns>
         <columns>Salary__c</columns>
-        <columns>Next_Year_Salary__c</columns>
-        <columns>Team_Board__c</columns>
+        <columns>NFL_team__c</columns>
+        <columns>ByeWeek__c</columns>
+        <columns>Team__c</columns>
         <columns>Total_Points_2016__c</columns>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>Team_Board__c</field>
-            <operation>equals</operation>
-            <value>Sophomore Risers</value>
-        </filters>
         <label>All</label>
     </listViews>
     <listViews>
@@ -244,6 +467,15 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Players</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <customTabListAdditionalFields>Position__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>NFL_team__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>last_season_ppg__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Auction_Estimate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ByeWeek__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Salary__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Total_Points_2016__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Team__c</customTabListAdditionalFields>
+    </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

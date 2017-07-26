@@ -170,6 +170,11 @@
         <customTabListAdditionalFields>Season__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>Salary__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>Points_Per_Game__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Player__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Points_Per_Game__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Salary__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Team__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Season__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

@@ -16,11 +16,6 @@
             <table>Team__c</table>
         </columns>
         <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Owner</field>
-            <table>Team__c</table>
-        </columns>
-        <columns>
             <checkedByDefault>true</checkedByDefault>
             <field>Name</field>
             <table>Team__c</table>

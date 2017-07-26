@@ -11,36 +11,13 @@
                 <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Current_Total_Salary__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Projected_salary__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Number_of_players__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Bid_Power__c</field>
-            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Division__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Season__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>League__c</field>
+                <field>OwnerId</field>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns/>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
@@ -74,25 +51,35 @@
     </layoutSections>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>Position__c</fields>
-        <fields>Salary__c</fields>
-        <fields>Next_Year_Salary__c</fields>
-        <fields>last_season_ppg__c</fields>
-        <relatedList>Player__c.Team__c</relatedList>
-        <sortField>last_season_ppg__c</sortField>
-        <sortOrder>Desc</sortOrder>
+        <fields>Number_of_players__c</fields>
+        <fields>Current_Total_Salary__c</fields>
+        <fields>Bid_Power__c</fields>
+        <fields>Projected_salary__c</fields>
+        <fields>Division__c</fields>
+        <fields>LAST_UPDATE</fields>
+        <relatedList>Team__c.League__c</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>Player__c</fields>
-        <fields>Points__c</fields>
-        <fields>Games_Played__c</fields>
-        <fields>Season__c</fields>
-        <fields>Salary__c</fields>
-        <fields>Points_Per_Game__c</fields>
-        <fields>NAME</fields>
-        <relatedList>Player_Team_Relationship__c.Team__c</relatedList>
-        <sortField>Points_Per_Game__c</sortField>
-        <sortOrder>Desc</sortOrder>
+        <fields>TASK.SUBJECT</fields>
+        <fields>TASK.WHO_NAME</fields>
+        <fields>ACTIVITY.TASK</fields>
+        <fields>TASK.DUE_DATE</fields>
+        <fields>TASK.STATUS</fields>
+        <fields>TASK.PRIORITY</fields>
+        <fields>CORE.USERS.FULL_NAME</fields>
+        <relatedList>RelatedActivityList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>TASK.SUBJECT</fields>
+        <fields>TASK.WHO_NAME</fields>
+        <fields>ACTIVITY.TASK</fields>
+        <fields>TASK.DUE_DATE</fields>
+        <fields>CORE.USERS.FULL_NAME</fields>
+        <fields>TASK.LAST_UPDATE</fields>
+        <relatedList>RelatedHistoryList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <relatedList>RelatedNoteList</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
@@ -100,7 +87,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h36000004nhYp</masterLabel>
+        <masterLabel>00h36000004kEn4</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

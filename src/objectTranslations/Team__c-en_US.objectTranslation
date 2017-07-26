@@ -29,6 +29,11 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- League --></label>
+        <name>League__c</name>
+        <relationshipLabel><!-- Teams --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Number of players --></label>
         <name>Number_of_players__c</name>
     </fields>

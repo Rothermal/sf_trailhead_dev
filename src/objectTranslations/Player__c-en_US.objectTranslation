@@ -9,6 +9,158 @@
         <value>Players</value>
     </caseValues>
     <fields>
+        <label><!-- Auction Estimate --></label>
+        <name>Auction_Estimate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Birthday --></label>
+        <name>Birthday__c</name>
+    </fields>
+    <fields>
+        <label><!-- ByeWeek --></label>
+        <name>ByeWeek__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depth Order --></label>
+        <name>Depth_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Height --></label>
+        <name>Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- NFL team --></label>
+        <name>NFL_team__c</name>
+        <picklistValues>
+            <masterLabel>ARI</masterLabel>
+            <translation><!-- ARI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ATL</masterLabel>
+            <translation><!-- ATL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BAL</masterLabel>
+            <translation><!-- BAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAR</masterLabel>
+            <translation><!-- CAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHI</masterLabel>
+            <translation><!-- CHI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIN</masterLabel>
+            <translation><!-- CIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLE</masterLabel>
+            <translation><!-- CLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAL</masterLabel>
+            <translation><!-- DAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEN</masterLabel>
+            <translation><!-- DEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DET</masterLabel>
+            <translation><!-- DET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GB</masterLabel>
+            <translation><!-- GB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOU</masterLabel>
+            <translation><!-- HOU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IND</masterLabel>
+            <translation><!-- IND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAX</masterLabel>
+            <translation><!-- JAX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KC</masterLabel>
+            <translation><!-- KC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAC</masterLabel>
+            <translation><!-- LAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LAR</masterLabel>
+            <translation><!-- LAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIA</masterLabel>
+            <translation><!-- MIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIN</masterLabel>
+            <translation><!-- MIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYG</masterLabel>
+            <translation><!-- NYG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYJ</masterLabel>
+            <translation><!-- NYJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OAK</masterLabel>
+            <translation><!-- OAK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PHI</masterLabel>
+            <translation><!-- PHI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PIT</masterLabel>
+            <translation><!-- PIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEA</masterLabel>
+            <translation><!-- SEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SF</masterLabel>
+            <translation><!-- SF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STL</masterLabel>
+            <translation><!-- STL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TB</masterLabel>
+            <translation><!-- TB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEN</masterLabel>
+            <translation><!-- TEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WAS</masterLabel>
+            <translation><!-- WAS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Next Year Salary --></label>
         <name>Next_Year_Salary__c</name>
     </fields>
@@ -96,6 +248,19 @@
     <fields>
         <label><!-- Total Points 2016 --></label>
         <name>Total_Points_2016__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wieght --></label>
+        <name>Wieght__c</name>
+    </fields>
+    <fields>
+        <label><!-- Years Experience --></label>
+        <name>Years_Experience__c</name>
+    </fields>
+    <fields>
+        <help><!-- id from fantasy data api --></help>
+        <label><!-- fantasy data id --></label>
+        <name>fantasy_data_id__c</name>
     </fields>
     <fields>
         <label><!-- last season ppg --></label>
